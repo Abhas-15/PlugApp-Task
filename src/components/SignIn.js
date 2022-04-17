@@ -22,7 +22,8 @@ const SignIn = ({setToken}) => {
     }
    
     return (
-        <button onClick={handleGoogleSignIn}>Sign In with Google</button>
+        
+        <button onClick={handleGoogleSignIn} style={{ backgroundColor: "#282c34",alignItems: "center",justifyContent: "center",fontSize: "calc(10px + 2vmin)",color: "white"}}>Sign In with Google</button>
     )
 }
 export default SignIn;
