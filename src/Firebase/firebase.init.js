@@ -1,8 +1,11 @@
-import { initializeApp } from 'firebase/app';
-import firebaseConfig from './firebase.config';
+import { initializeApp } from "firebase/app";
+import firebaseConfig from "./firebase.config";
+import { getDatabase } from "firebase/database";
 
 const initializeAuthentication = () => {
-    initializeApp(firebaseConfig);
-}
+  return initializeApp(firebaseConfig);
+};
+const app = initializeAuthentication();
+export const db = getDatabase(app);
 
 export default initializeAuthentication;
