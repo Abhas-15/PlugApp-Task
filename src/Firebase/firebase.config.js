@@ -4,6 +4,8 @@ const firebaseConfig = {
 
   authDomain: "plugapp-d2ed3.firebaseapp.com",
 
+  databaseURL: "https://plugapp-d2ed3-default-rtdb.asia-southeast1.firebasedatabase.app",
+
   projectId: "plugapp-d2ed3",
 
   storageBucket: "plugapp-d2ed3.appspot.com",
